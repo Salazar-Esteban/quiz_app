@@ -2,13 +2,13 @@ import 'package:quiz_app/models/quiz_answer.dart';
 
 class QuizQuestion {
   const QuizQuestion(
-      {required this.question,
+      {required this.title,
       required this.answers,
       required this.id,
       required this.correctAnswerID});
 
   final int id;
-  final String question;
+  final String title;
 // Answer Related types
   final List<Answer> answers;
   final int correctAnswerID;
