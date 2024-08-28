@@ -22,7 +22,8 @@ class StyledText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       title,
-      style: GoogleFonts.abel(fontSize: size, color: color, fontWeight: FontWeight.w400),
+      style: GoogleFonts.abel(
+          fontSize: size, color: color, fontWeight: FontWeight.w400),
       textAlign: TextAlign.center,
     );
   }
