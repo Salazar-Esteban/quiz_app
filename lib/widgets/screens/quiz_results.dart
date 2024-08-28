@@ -70,7 +70,7 @@ class ResultScreen extends StatelessWidget {
             onPressed: restartQuiz,
             icon: const Icon(Icons.settings_backup_restore_sharp),
             color: Colors.white,
-            iconSize: 60,
+            iconSize: 40,
           )
         ],
       ),
